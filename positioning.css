@@ -7,13 +7,15 @@
   left: 0;
 }
 
-h1 {
-  font-size: 200%;
+.wrapper {
   margin: 0 150px;
 }
 
+h1 {
+  font-size: 200%;
+}
+
 p {
-  margin: 0 150px;
   font-size: 20px;
   line-height: 50px;
 }
@@ -21,7 +23,6 @@ p {
 #relative-div {
   background: #eee;
   position: relative;
-  margin: 0 150px;
   height: 150px;
 
 }
@@ -33,3 +34,5 @@ p {
   right: -25px;
   bottom: 0;
 }
+
+
