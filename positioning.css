@@ -1,0 +1,35 @@
+#fixed-div {
+  background: #eee;
+  width: 15%;
+  height: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  font-size: 200%;
+  margin: 0 150px;
+}
+
+p {
+  margin: 0 150px;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+#relative-div {
+  background: #eee;
+  position: relative;
+  margin: 0 150px;
+  height: 150px;
+
+}
+
+#absolute-div {
+  background: #999;
+  position: absolute;
+  height: 75px;
+  right: -25px;
+  bottom: 0;
+}
